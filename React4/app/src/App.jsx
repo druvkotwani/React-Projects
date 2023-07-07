@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResult/SearchResult";
 
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://foody-app-backend.onrender.com";
 
 const App = () => {
   const [data, setData] = useState(null);
